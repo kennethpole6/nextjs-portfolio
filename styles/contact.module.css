@@ -8,7 +8,7 @@
 
 .contact_container h1 {
   font-size: 3.5em;
-  background: linear-gradient(-70deg, #84ffc9, #aab2ff, #eca0ff);
+  background: linear-gradient(-45deg, #2278fb, #6bdfdb, #2278fb, #6bdfdb);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -19,7 +19,7 @@
 }
 
 .contact_container h2 a {
-  color: #aab2ff;
+  color: #2278fb;
 }
 
 @keyframes flow {

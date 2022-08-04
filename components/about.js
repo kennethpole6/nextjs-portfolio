@@ -33,7 +33,7 @@ const about = () => {
         className={styles.stacks}
       >
         <motion.div
-          whileHover={{ scale: 1.1, y: -5, color: "#e85c90" }}
+          whileHover={{ scale: 1.1, y: -5, color: "#2278fb" }}
           whileTap={{ scale: 0.8 }}
           className={styles.stacks_icon}
         >
@@ -42,7 +42,7 @@ const about = () => {
         </motion.div>
 
         <motion.div
-          whileHover={{ scale: 1.1, y: -5, color: "#e85c90" }}
+          whileHover={{ scale: 1.1, y: -5, color: "#2278fb" }}
           whileTap={{ scale: 0.8 }}
           className={styles.stacks_icon}
         >
@@ -51,7 +51,7 @@ const about = () => {
         </motion.div>
 
         <motion.div
-          whileHover={{ scale: 1.1, y: -5, color: "#e85c90" }}
+          whileHover={{ scale: 1.1, y: -5, color: "#2278fb" }}
           whileTap={{ scale: 0.8 }}
           className={styles.stacks_icon}
         >
@@ -60,7 +60,7 @@ const about = () => {
         </motion.div>
 
         <motion.div
-          whileHover={{ scale: 1.1, y: -5, color: "#e85c90" }}
+          whileHover={{ scale: 1.1, y: -5, color: "#2278fb" }}
           whileTap={{ scale: 0.8 }}
           className={styles.stacks_icon}
         >
@@ -69,7 +69,7 @@ const about = () => {
         </motion.div>
 
         <motion.div
-          whileHover={{ scale: 1.1, y: -5, color: "#e85c90" }}
+          whileHover={{ scale: 1.1, y: -5, color: "#2278fb" }}
           whileTap={{ scale: 0.8 }}
           className={styles.stacks_icon}
         >
@@ -78,7 +78,7 @@ const about = () => {
         </motion.div>
 
         <motion.div
-          whileHover={{ scale: 1.1, y: -5, color: "#e85c90" }}
+          whileHover={{ scale: 1.1, y: -5, color: "#2278fb" }}
           whileTap={{ scale: 0.8 }}
           className={styles.stacks_icon}
         >

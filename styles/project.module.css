@@ -23,7 +23,7 @@
 }
 
 .cards h3 {
-  color: #e85c90;
+  color: #2278fb;
 }
 
 .cards p {
@@ -41,12 +41,12 @@
   margin-right: 1rem;
 }
 .github:hover {
-  color: #e85c90;
+  color: #2278fb;
   cursor: pointer;
 }
 
 .folder:hover {
-  color: #e85c90;
+  color: #2278fb;
   cursor: pointer;
 }
 

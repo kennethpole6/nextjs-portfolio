@@ -31,9 +31,9 @@
 }
 
 .header_container span {
-  animation: flow 5s ease-in infinite;
-  background: linear-gradient(-70deg, #84ffc9, #aab2ff, #eca0ff);
-  background-size: 180%;
+  animation: flow 3s ease infinite;
+  background: linear-gradient(-45deg, #2278fb, #6bdfdb, #2278fb, #6bdfdb);
+  background-size: 400% 400%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

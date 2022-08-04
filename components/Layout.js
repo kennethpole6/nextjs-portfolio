@@ -3,6 +3,7 @@ import Home from "./home";
 import Project from "./project";
 import About from "./about";
 import Contact from "./contact";
+import Footer from "./footer";
 const Layout = ({ children }) => {
   return (
     <>
@@ -11,6 +12,7 @@ const Layout = ({ children }) => {
       <Project />
       <About />
       <Contact />
+      <Footer />
       <div>{children}</div>
     </>
   );

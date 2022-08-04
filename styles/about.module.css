@@ -10,24 +10,7 @@
   font-size: 3em;
 }
 .about_container span {
-  animation: flow 5s ease-in infinite;
-  background: linear-gradient(-70deg, #84ffc9, #aab2ff, #eca0ff);
-  background-size: 200%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-@keyframes flow {
-  0% {
-    background-position: 0 50%;
-  }
-
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0 50%;
-  }
+  color: #2278fb;
 }
 
 .about_container h2 {
@@ -44,7 +27,7 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: start;
+  justify-content: flex-start;
   gap: 2rem;
   width: 70%;
 }
@@ -81,7 +64,8 @@
   }
 
   .about_container h2 {
-    font-size: 1.5em;
-    font-weight: 600;
+    font-size: 1.2em;
+    font-weight: 500;
+    line-height: 2rem;
   }
 }

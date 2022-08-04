@@ -2,7 +2,7 @@ import { FiFolder, FiExternalLink, FiGithub } from "react-icons/fi";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import styles from "../styles/project.module.css";
-const Cards = ({ title, desc, badge }) => {
+const Cards = ({ title, desc, badge, link }) => {
   return (
     <div>
       <motion.div
@@ -12,9 +12,9 @@ const Cards = ({ title, desc, badge }) => {
         className={styles.cards}
       >
         <div className={styles.cards_header}>
-          <FiFolder size={40} style={{ color: "#eca0ff" }} />
+          <FiFolder size={40} style={{ color: "#2278fb" }} />
           <div className={styles.goto}>
-            <Link href="/">
+            <Link href={link}>
               <FiGithub size={25} className={styles.github} />
             </Link>
             <Link href="/">

@@ -14,6 +14,7 @@ const project = () => {
                 title={item.title}
                 desc={item.description}
                 badge={item.badge}
+                link={item.link}
               ></Cards>
             );
           })}

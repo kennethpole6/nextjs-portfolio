@@ -24,13 +24,13 @@ const navbar = () => {
         </div>
       </div>
       <div className={styles.navbar_cta}>
-        <a href="#">
+        <a href="https://www.facebook.com/kennethpole6/">
           <FaFacebook size={24} />
         </a>
-        <a href="#">
+        <a href="https://www.linkedin.com/in/kenneth-pole/">
           <FaLinkedin size={24} />
         </a>
-        <a href="#">
+        <a href="https://github.com/kennethpole6">
           <FaGithub size={24} />
         </a>
       </div>
@@ -56,13 +56,13 @@ const navbar = () => {
               <Link href="#abouts">About</Link>
               <Link href="#contacts">Contact</Link>
               <div className={styles.navbar_menu_cta}>
-                <a href="#">
+                <a href="https://www.facebook.com/kennethpole6/">
                   <FaFacebook size={24} />
                 </a>
-                <a href="#">
+                <a href="https://www.linkedin.com/in/kenneth-pole/">
                   <FaLinkedin size={24} />
                 </a>
-                <a href="#">
+                <a href="https://github.com/kennethpole6">
                   <FaGithub size={24} />
                 </a>
               </div>

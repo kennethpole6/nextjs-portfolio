@@ -41,19 +41,19 @@
 }
 
 .navbar_cta a:hover {
-  color: #84ffc9;
+  color: #2278fb;
 }
 
 .navbar_links a:hover {
-  color: #84ffc9;
+  color: #2278fb;
 }
 .navbar_menu_links a:hover {
-  color: #84ffc9;
+  color: #2278fb;
 }
 
 .navbar_logo a {
   font-size: 1.2rem;
-  color: #84ffc9;
+  color: #2278fb;
   cursor: pointer;
 }
 
