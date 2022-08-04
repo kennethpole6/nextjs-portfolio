@@ -1,4 +1,4 @@
-export default [
+const projectData = [
   {
     id: 1,
     title: "Swab Testing System",
@@ -32,3 +32,5 @@ export default [
     link: "https://github.com/kennethpole6/Covid19",
   },
 ];
+
+export default projectData;

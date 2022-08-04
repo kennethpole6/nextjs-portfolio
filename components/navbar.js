@@ -6,7 +6,7 @@ import { FaFacebook, FaLinkedin, FaGithub } from "react-icons/fa";
 import styles from "../styles/navbar.module.css";
 
 const navbar = () => {
-  const [toggleMenu, setToggleMenu] = useState(false);
+  const [useToggleMenu, setToggleMenu] = useState(false);
   return (
     <nav className={styles.navbar}>
       <div className={styles.navbar_links}>
@@ -36,12 +36,12 @@ const navbar = () => {
       </div>
 
       <div className={styles.navbar_menu}>
-        {toggleMenu ? (
+        {useToggleMenu ? (
           <FiX size={27} onClick={() => setToggleMenu(false)} />
         ) : (
           <FiMenu size={27} onClick={() => setToggleMenu(true)} />
         )}
-        {toggleMenu && (
+        {useToggleMenu && (
           <motion.div
             animate={{ y: -5, scale: 0.9 }}
             transition={{
