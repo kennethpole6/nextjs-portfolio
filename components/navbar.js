@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { FaFacebook, FaLinkedin, FaGithub } from "react-icons/fa";
 import styles from "../styles/navbar.module.css";
 
-const navbar = () => {
+const Navbar = () => {
   const [useToggleMenu, setToggleMenu] = useState(false);
   return (
     <nav className={styles.navbar}>
@@ -74,4 +74,4 @@ const navbar = () => {
   );
 };
 
-export default navbar;
+export default Navbar;
