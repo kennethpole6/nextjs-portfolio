@@ -1,0 +1,90 @@
+.project_container {
+  padding: 1rem 12rem;
+}
+
+.project_container h1 {
+  font-size: 3em;
+}
+
+.cards_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.cards {
+  padding: 2rem;
+  width: 29em;
+  height: 20em;
+  border-radius: 8px;
+  background-color: #292c3fb4;
+}
+
+.cards h3 {
+  color: #e85c90;
+}
+
+.cards p {
+  line-height: 1.5rem;
+}
+
+.cards_header {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.github {
+  margin-right: 1rem;
+}
+.github:hover {
+  color: #e85c90;
+  cursor: pointer;
+}
+
+.folder:hover {
+  color: #e85c90;
+  cursor: pointer;
+}
+
+.badge {
+  font-weight: 300;
+  font-size: 0.9em;
+  opacity: 0.8;
+  border-radius: 4px;
+  width: fit-content;
+}
+
+@media screen and (max-width: 768px) {
+  .project_container {
+    padding: 0rem 4rem;
+  }
+
+  .project_container h1 {
+    font-size: 2em;
+    text-align: center;
+  }
+
+  .cards {
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .project_container {
+    padding: 0rem 0.8rem;
+  }
+  .cards_container {
+    padding: 0;
+  }
+
+  .cards {
+    width: 90%;
+    margin: 0 auto;
+  }
+}

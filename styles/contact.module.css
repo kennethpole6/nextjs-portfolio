@@ -1,0 +1,60 @@
+.contact_container {
+  padding: 1rem 12rem;
+}
+
+.contact_container > * {
+  margin: 1.5rem 0;
+}
+
+.contact_container h1 {
+  font-size: 3.5em;
+  background: linear-gradient(-70deg, #84ffc9, #aab2ff, #eca0ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.contact_container h2 {
+  font-size: 2em;
+  line-height: 3.5rem;
+}
+
+.contact_container h2 a {
+  color: #aab2ff;
+}
+
+@keyframes flow {
+  0% {
+    background-position: 0 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact_container {
+    padding: 1.5rem 5.5rem;
+  }
+  .contact_container h1 {
+    font-size: 2em;
+  }
+  .contact_container h2 {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .contact_container {
+    padding: 1.5rem;
+  }
+  .contact_container h1 {
+    font-size: 2em;
+  }
+  .contact_container h2 {
+    font-size: 1.5em;
+  }
+}
