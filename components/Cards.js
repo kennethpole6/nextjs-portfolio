@@ -17,7 +17,7 @@ const Cards = ({ title, desc, badge, link }) => {
             <Link href={link}>
               <FiGithub size={25} className={styles.github} />
             </Link>
-            <Link href="/">
+            <Link href="#">
               <FiExternalLink className={styles.folder} size={25} />
             </Link>
           </div>
