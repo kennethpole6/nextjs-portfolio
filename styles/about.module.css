@@ -18,10 +18,6 @@
   line-height: 3.5rem;
 }
 
-.about_container p {
-  font-weight: 300;
-}
-
 .stacks {
   margin-top: 2.5rem;
   display: flex;
@@ -38,6 +34,7 @@
   align-items: center;
   justify-content: flex-start;
   cursor: pointer;
+  font-size: 0.9rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -56,7 +53,7 @@
 
 @media screen and (max-width: 550px) {
   .about_container {
-    padding: 1rem;
+    padding: 8vh 1rem;
   }
 
   .about_container h1 {

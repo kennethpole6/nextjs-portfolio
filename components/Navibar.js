@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { useState } from "react";
-import { FiMenu, FiX } from "react-icons/fi";
+import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import { motion } from "framer-motion";
 import { FaFacebook, FaLinkedin, FaGithub } from "react-icons/fa";
 import styles from "../styles/navbar.module.css";
@@ -37,9 +37,9 @@ const Navibar = () => {
 
       <div className={styles.navbar_menu}>
         {useToggleMenu ? (
-          <FiX size={27} onClick={() => setToggleMenu(false)} />
+          <RiCloseLine size={27} onClick={() => setToggleMenu(false)} />
         ) : (
-          <FiMenu size={27} onClick={() => setToggleMenu(true)} />
+          <RiMenu3Line size={27} onClick={() => setToggleMenu(true)} />
         )}
         {useToggleMenu && (
           <motion.div
