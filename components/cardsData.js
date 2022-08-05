@@ -29,7 +29,7 @@ const projectData = [
     description:
       "Allows users to search and view countries new case and death of COVID-19 worldwide",
     badge: "REACT JS & REST API",
-    link: "https://github.com/kennethpole6/Covid19",
+    link: "https://covid-19-global-country.netlify.app/",
   },
 ];
 

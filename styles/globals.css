@@ -19,6 +19,20 @@ a {
   box-sizing: border-box;
 }
 
+html::-webkit-scrollbar {
+  width: 8px;
+}
+
+html::-webkit-scrollbar-track {
+  background: hsla(0, 0%, 76.9%, 0.25);
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #2278fb;
+  border-radius: 8px;
+  height: 5px;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

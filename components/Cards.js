@@ -13,14 +13,9 @@ const Cards = ({ title, desc, badge, link }) => {
       >
         <div className={styles.cards_header}>
           <FiFolder size={40} style={{ color: "#2278fb" }} />
-          <div className={styles.goto}>
-            <Link href={link}>
-              <FiGithub size={25} className={styles.github} />
-            </Link>
-            <Link href="#">
-              <FiExternalLink className={styles.folder} size={25} />
-            </Link>
-          </div>
+          <Link href={link}>
+            <FiGithub size={27} className={styles.github} />
+          </Link>
         </div>
         <h3>{title}</h3>
         <p>{desc}</p>

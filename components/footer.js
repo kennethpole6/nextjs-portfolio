@@ -10,7 +10,7 @@ const footer = () => {
         whileTap={{ scale: 0.9 }}
         className={styles.footer_logo}
       >
-        <Link href="/">{`{kp}`}</Link>
+        <Link href="/" scroll>{`{kp}`}</Link>
       </motion.div>
       <div className={styles.footer_social}>
         <a href="https://www.instagram.com/kennethpole10/">
