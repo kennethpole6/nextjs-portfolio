@@ -18,9 +18,14 @@ const contact = () => {
         transition={{ duration: 1.1 }}
       >
         I am currently looking to join a team of creative designers and
-        developers. If you can think I might be a good fit to your team, give me
-        a <Link href="/">call </Link>🤳 or send me an{" "}
-        <Link href="/">email</Link> 📧.
+        developers. If you think I might be a good fit to your team, give me a{" "}
+        <Link href="/">call </Link>🤳 or send me an{" "}
+        <Link
+          href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=polekenneth11@gmail.com"
+          target="_blank"
+        >
+          email 📧.
+        </Link>
       </motion.h2>
     </motion.div>
   );

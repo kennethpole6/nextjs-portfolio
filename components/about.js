@@ -22,8 +22,8 @@ const about = () => {
       <h2>
         Hello there, my name is Kenneth Pole. I love to create and deliver
         end-to-end <span>UI/UX design</span> and <span>development</span> for
-        software products. I'm passionate in continuous learning and improvement
-        and constanty looking to learn new things everyday.
+        software products. I'm passionate in learning new web technologies
+        everyday.
       </h2>
       <p>Here are some tech stack I've been working recently.</p>
       <motion.div
