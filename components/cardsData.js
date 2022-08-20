@@ -13,7 +13,7 @@ const projectData = [
     description:
       "A user-friendly that allows user to appoint and schedule swab testing via online so that the user will never be waiting in long queue.",
     badge: "UI DESIGN & FRONT-END",
-    link: "https://github.com/kennethpole6/Swab-System",
+    link: "http://swabsystem.rf.gd/?i=1",
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ const projectData = [
     description:
       "HRIS for Richworld Giftshop is designed to help the business to store and organize employee information at ease with a feature of job hiring process.",
     badge: "UI DESIGN & FRONT-END",
-    link: "https://github.com/kennethpole6/Richworld-Giftshop",
+    link: "http://richworldgiftshop.rf.gd/",
   },
   {
     id: 4,
