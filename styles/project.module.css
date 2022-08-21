@@ -37,6 +37,11 @@
   justify-content: space-between;
 }
 
+.cards_external_links {
+  display: flex;
+  gap: 0.5rem;
+}
+
 .github {
   margin-right: 1rem;
 }

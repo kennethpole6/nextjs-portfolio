@@ -15,6 +15,7 @@ const project = () => {
                 desc={item.description}
                 badge={item.badge}
                 link={item.link}
+                github={item.github}
               ></Cards>
             );
           })}

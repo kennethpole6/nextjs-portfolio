@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }) {
     <Layout>
       <NextSeo
         title="Kenneth Pole"
-        description="Kenneth Pole Portfolio"
+        description="Kenneth Pole"
         canonical="https://kennethpole6.vercel.app/"
         twitter={{
           handle: "kenneth pole",
